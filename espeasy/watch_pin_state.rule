@@ -1,0 +1,7 @@
+On kociol#Switch=0 do
+gpio,12,1
+EndOn
+
+On kociol#Switch=1 do
+gpio,12,0
+EndOn

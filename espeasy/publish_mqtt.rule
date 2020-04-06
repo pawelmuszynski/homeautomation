@@ -1,0 +1,4 @@
+on gleba#Moisture do
+  Let,1,(%rssi%+105)/5
+  Publish domoticz/in,'{"idx":38, "RSSI":[var#1#D0], "nvalue":[gleba#Moisture]}'
+endon
